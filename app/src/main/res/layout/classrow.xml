@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/Course_NameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cyber Security"
+        android:background="#A6F8EA"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/Teacher_NameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dr Zakriya"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/Course_TimeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12:30 pm to 02:00 pm"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="20sp"
+        android:layout_marginRight="5dp"
+        android:textAlignment="textEnd" />
+    <TextView
+        android:id="@+id/Course_VenueTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab 17, Block 1"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="20sp"
+        android:layout_marginRight="5dp"
+        android:textAlignment="textEnd" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

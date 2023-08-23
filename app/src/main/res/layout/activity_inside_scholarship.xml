@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".InsideScholarship">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:background="@color/light_grey"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:text="Scholarship Title :" />
+
+    <TextView
+        android:id="@+id/ScholarshipName_InsideTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:text="Scholarship Name will be shown here"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:background="@color/light_grey"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:text="Eligibility :" />
+
+    <TextView
+        android:id="@+id/ScholarshipEligiblity_InsideTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:text="Scholarship Eligibility will be shown here"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:background="@color/light_grey"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:text="Description :" />
+
+    <TextView
+        android:id="@+id/ScholarshipDescription_InsideTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:text="Scholarship Description will be shown here"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:background="@color/light_grey"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:text="Link to apply :" />
+
+    <TextView
+        android:id="@+id/ScholarshipLink_InsideTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:fontFamily="@font/akaya_telivigala"
+        android:minHeight="48dp"
+        android:linksClickable="true"
+        android:text="Scholarship link will be shown here"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:background="@color/light_grey"
+        android:text="Deadline :" />
+
+    <TextView
+        android:id="@+id/ScholarshipDeadline_InsideTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:text="Scholarship Deadline will be shown here"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

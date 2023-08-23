@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CampusEase</string>
+    <string name="add_more">Add More</string>
+    <string name="enter_course_code">Enter Course code</string>
+    <string name="submit">Submit</string>
+    <string name="enter_new_password">Enter new Password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="submit2">Submit</string>
+    <string name="spinner2">spinner2</string>
+    <string name="enter_cms">Enter CMS</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="Departments">
+        <item>Select Department</item>
+        <item>BBA</item>
+        <item>Computer Science</item>
+        <item>B.ed</item>
+        <item>Electrical Engineering</item>
+        <item>Accounting and Finance</item>
+    </string-array>
+
+    <string-array name="Semesters">
+        <item>Select Semester</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

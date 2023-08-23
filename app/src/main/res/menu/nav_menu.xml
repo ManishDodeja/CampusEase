@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_enroll"
+        android:title="Enroll Subject"
+        android:icon="@drawable/ic_baseline_enroll_24"
+        />
+    <item
+        android:id="@+id/nav_unenroll"
+        android:title="Unenroll Subject"
+        android:icon="@drawable/ic_baseline_unenroll_24"
+        />
+
+    <item
+        android:id="@+id/nav_changePass"
+        android:title="Change Password"
+        android:icon="@drawable/ic_baseline_change_circle_24"/>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:title="Feedback"
+                android:icon="@drawable/ic_baseline_feedback_24"/>
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share Us"
+                android:icon="@drawable/ic_baseline_share_24"/>
+        </menu>
+    </item>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Log out"
+                android:icon="@drawable/ic_baseline_logout_24"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".inside_event"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/EventTitle_inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:layout_marginTop="5dp"
+            android:text="Event Title" />
+
+        <TextView
+            android:id="@+id/textViewDescriptionEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@color/light_grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Description :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/company_image"/>
+
+        <TextView
+            android:id="@+id/EventInfo_inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:layout_marginTop="10dp"
+            android:text="Event Description will be shown here" />
+
+
+        <TextView
+            android:id="@+id/textViewEventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:background="@color/light_grey"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Date : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/company_image"/>
+
+        <TextView
+            android:id="@+id/EventDate_inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:layout_marginTop="10dp"
+            android:text="Event Date will be visible here" />
+
+        <TextView
+            android:id="@+id/textViewEventDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:background="@color/light_grey"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Event Day : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/company_image"/>
+
+
+        <TextView
+            android:id="@+id/EventDay_inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:layout_marginTop="10dp"
+            android:text="Event Day" />
+
+        <TextView
+            android:id="@+id/textViewEventTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_grey"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Event Time : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/company_image"/>
+
+        <TextView
+            android:id="@+id/EventTime_inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:layout_marginTop="10dp"
+            android:text="Event Time" />
+
+        <TextView
+            android:id="@+id/textViewEventVenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@color/light_grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Event Venue :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/company_image"/>
+
+        <TextView
+            android:id="@+id/EventVenue_inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:layout_marginTop="10dp"
+            android:text="Event Venue" />
+
+
+        <TextView
+            android:id="@+id/textViewEventRegistrationLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@color/light_grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Registration Link"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/company_image"/>
+
+        <TextView
+            android:id="@+id/EventLink_inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:fontFamily="@font/akaya_telivigala"
+            android:layout_marginTop="10dp"
+            android:text="Event Link for registration" />
+
+    </LinearLayout>
+</ScrollView>

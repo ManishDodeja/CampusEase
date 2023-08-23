@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_text_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_Courses">
+
+   <LinearLayout
+       android:id="@+id/container"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="center"
+       >
+       <!--    <EditText-->
+       <!--        android:layout_width="270dp"-->
+       <!--        android:layout_height="wrap_content"-->
+       <!--        android:hint="Enter Course Code"-->
+       <!--        android:textAlignment="center"-->
+       <!--        android:layout_gravity="center"/>-->
+    <include
+        layout="@layout/dynamic_edit_text">
+    </include>
+
+   </LinearLayout>
+
+
+    <Button
+        android:id="@+id/AddCourse_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_btn"
+        android:onClick="AddCourse"
+        android:text="@string/add_more" />
+
+    <Button
+        android:id="@+id/Submit_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_btn"
+        android:onClick="OnSubmit"
+        android:text="@string/submit" />
+
+
+</LinearLayout>

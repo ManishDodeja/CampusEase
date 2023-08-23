@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/Unenroll_courseCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:textSize="25sp"
+
+        android:fontFamily="@font/akaya_telivigala"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/Unenroll_courseName"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Cyber Security"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/UnenrollButton"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Unenroll"
+        android:fontFamily="@font/akaya_telivigala"
+        />
+
+
+
+
+
+</LinearLayout>

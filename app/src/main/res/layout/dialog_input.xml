@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/PopUpTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enroll a course"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/PopUpTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add your course code here"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textAlignment="textStart"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/PopUpEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter Course code"
+        android:textAlignment="center"
+        android:fontFamily="@font/akaya_telivigala"
+        />
+
+    <Button
+        android:id="@+id/SubmitCourseCodeButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>

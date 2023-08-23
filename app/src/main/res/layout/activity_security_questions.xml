@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecurityQuestions">
+
+
+    <TextView
+        android:id="@+id/SecurityQuestionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Security Questions"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/akaya_telivigala"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/question1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What City were you born in ?"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/question1EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter here ..!"
+        android:fontFamily="@font/akaya_telivigala"
+        />
+
+
+    <TextView
+        android:id="@+id/question2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What was the name of the first school you attended ?"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/question2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Enter here ..!"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/akaya_telivigala"
+        />
+
+
+    <Button
+        android:id="@+id/SubmitSQButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:onClick="clickSubmit"
+        android:text="Submit" />
+
+</LinearLayout>
